@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 // Define the API route that prints hello Omar
 app.get('/api/x', (req, res) => {
     console.log('hello X');
-    res.json({ message: 'hello X' });
+    res.json({ message: 'hello Ali' });
 });
 
 // Run the app

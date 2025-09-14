@@ -164,6 +164,7 @@ function showMessage() {
 
 ---
 
+### functions in JavaScript:
 
 ```javascript
 function Greeting(){

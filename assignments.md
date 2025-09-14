@@ -24,9 +24,9 @@ By the end of this series of assignments, you will have:
 
 | Assignment | Focus Area                  | Weight | Due Date | Submission Format                     |
 | ---------- | --------------------------- | ------ | -------- | ------------------------------------- |
-| 1          | Foundation & AI Integration | 2%     | Week 4   | GitHub Repository Link                |
-| 2          | Interactive Features        | 2%     | Week 7   | GitHub Repository Link                |
-| 3          | Advanced Functionality      | 2%     | Week 10  | GitHub Repository Link                |
-| 4          | Personal Web Application    | 2%     | Week 13  | GitHub Repository Link + Presentation |
+| 1          | Foundation & AI Integration | 2%     | Week 5   | GitHub Repository Link                |
+| 2          | Interactive Features        | 2%     | Week 9   | GitHub Repository Link                |
+| 3          | Advanced Functionality      | 2%     | Week 13  | GitHub Repository Link                |
+| 4          | Personal Web Application    | 2%     | Week 15  | GitHub Repository Link + Presentation |
 
 **Total Weight: 8% of Final Grade**

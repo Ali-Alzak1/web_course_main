@@ -75,6 +75,16 @@ Web Engineering & Development (SWE 363)
 
 ---
 
+### Reference: 
+- Zybook: 4.1 to 4.7
+
+---
+
+# Announcements 📣
+- Project Assignment #1 is due This Thursday at 11:59 PM
+
+---
+
 ### Examples:
 
 # 📘 JavaScript Basics – Simple Examples
@@ -146,17 +156,90 @@ function showMessage() {
 ```
 
 ---
-### Reference: 
-- Zybook: 4.1 to 4.7
 
+
+```javascript
+function Greeting(){
+    console.log("Helllo");
+    alert("Alert me")
+}
+Greeting();
+
+```
+```javascript
+
+const greet=function(){
+    alert("Alert me")
+}
+greet();
+
+```
+```javascript
+ const greet=()=>{
+    alert("Alert me");
+}
+greet(); 
+
+```
+```javascript
+ document.getElementById("btn").onclick = function() {
+    alert("Alert me");
+}; 
+
+```
+```javascript
+
+ class Car {
+  start() {
+    alert("Alert me");
+  }
+}
+
+const myCar = new Car();
+myCar.start(); // Trigger method 
+
+```
+```javascript
+
+  function sayHi() {
+        alert("Alert me");
+  } 
+
+```
+```javascript
+
+ (function(){
+        alert("Alert me");
+})();
+ 
+ 
+```
+```javascript
+
+function Person(name) {
+  this.name = name;
+  this.sayHello = function() {
+        alert("Alert me");
+  };
+}
+
+const p1 = new Person("Hasan");
+p1.sayHello(); // Triggered on object
+
+```
+```javascript
+
+ document.getElementById("btn").addEventListener("click",()=>{
+        alert("Alert me");
+
+}); 
+
+```
+---
+# Let and Var keywords
+![bg center](./img/VarLet.jpg)
 
 ---
-
-# Announcements 📣
-- Project Assignment #1 is due This Thursday at 11:59 PM
-
----
-
 <!-- _class: demo -->
 
 >45m

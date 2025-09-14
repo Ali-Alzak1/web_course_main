@@ -2,27 +2,23 @@
 
 ## **Due: Week 4 | Weight: 2%**
 
-## 🎯 Objective
 
-This is your first step towards building a personal portfolio web application. The goal here is not to make everything perfect, but to practice the basics:
+# 🎯 Objective
 
-- Establish fundamental web development skills
-- Integrate AI-assisted development tools
-- Create a responsive web application
-- Demonstrate proficiency in HTML, CSS, and JavaScript
+Build a simple, responsive personal portfolio web application as the starting point of your professional portfolio.  
 
-By the end of this assignment, you will have a simple, working web application that serves as the starting frame for your professional portfolio.
+### Goals
+- Practice **HTML, CSS, JavaScript** basics  
+- Use **AI-assisted development tools**  
+- Apply **responsive design**  
+- Write clear **documentation**  
 
-## 🥋 Instructions
+## 1. Repository Setup
+- Create a public GitHub repository named **`assignment-1`**.  
+- Maintain a clear folder structure, meaningful commit history, and a well-written `README.md`.  
+- Use branches if needed.  
 
-### 1. Repository Setup
-
-- **Public Repository**: Create a public GitHub repository called `assignment-1`.
-- **Clear Structure**: Well-organized file and folder structure
-- **Documentation**: Comprehensive README.md files
-- **Commit History**: Meaningful commit messages showing development progress
-- **Branching**: Use of feature branches for development (recommended)
-- Organize your files in a simple structure like this:
+### Suggested Structure
 
 ```
 assignment-1/
@@ -38,144 +34,116 @@ assignment-1/
 │   ├── ai-usage-report.md
 │   └── technical-documentation.md
 └── .gitignore
+
 ```
 
-### 2. Content Requirements
+---
 
-Your portfolio website must include at least three main sections:
+## 2. Content Requirements
+Your portfolio site should have at least **three sections**:
 
-- About Me
+- **About Me** → 2–3 sentence intro, tagline/one-liner, optional profile image.  
+- **Projects** → at least 2 projects (title, short description, placeholder image).  
+- **Contact** → form with Name, Email, Message (no backend needed).  
 
-  - A short introduction (2–3 sentences) about yourself.
-  - Optional: a simple profile image or icon.
-  - A tagline or one-liner (e.g., “Computer Science Student | Aspiring Web Developer”).
+⚡ You may add extra sections (skills, hobbies, achievements).  
+💡 Tip: Explore real portfolio sites for inspiration.  
 
-- Projects
+---
 
-  - Add at least two projects.
-  - Each project should have:
-    - A title.
-    - A short description.
-    - A placeholder image or icon.
+## 3. Responsive Design
+- Must display well on **desktop, tablet, and mobile**.  
+- Use **CSS Grid/Flexbox** or a lightweight framework (e.g., Bootstrap, Tailwind).  
+- Test with browser resizing or DevTools.  
 
-- Contact
-  - A form with three fields: Name, Email, Message.
-  - The form does not need backend functionality yet.
+---
 
-⚡ Guideline: You are not limited to only these sections. Feel free to be creative and add more if you’d like (e.g., skills, hobbies, or achievements).
+## 4. Interactivity
+Add at least **one JavaScript feature**, such as:  
+- Smooth scrolling  
+- Dark/light theme toggle  
+- Greeting message by time of day  
+- Form or button interactions  
 
-💡 Pro Tip: Take a few minutes to explore real portfolio websites, for example, those of your professors, alumni, or developers you admire. Notice how they introduce themselves and showcase their work. Use that inspiration to guide your own design.
+---
 
-### 3. Responsive Design
+## 5. AI Integration
+Use at least one AI tool (e.g., GitHub Copilot, ChatGPT, Claude). Possible uses:  
+- Code generation, debugging, or code review  
+- Documentation support  
+- UI/UX design suggestions  
 
-- Your website must display properly on desktop, tablet, and mobile.
-- Use CSS Grid/Flexbox or a lightweight CSS framework (Bootstrap, Tailwind, etc.).
-- Test your website by resizing your browser window or using Chrome DevTools.
+### Document in `docs/ai-usage-report.md`:
+- Tools used & use cases  
+- Benefits & challenges  
+- Learning outcomes  
+- How you modified AI suggestions responsibly  
 
-### 4. Interactivity
+---
 
-Add at least one small interactive feature using JavaScript. Some examples:
+## 6. Code Quality
+- Clean, consistent, well-indented code with logical file separation.  
+- Add comments for clarity.  
+- Avoid unused code, broken links, or clutter.  
 
-- Smooth scrolling when clicking navigation links.
-- A dark/light theme toggle.
-- A greeting message that changes with the time of day.
-- Include forms, buttons, and user interactions.
+---
 
-### 5. AI Integration
+## 7. Documentation
+Your `README.md` should include:  
+- Project description  
+- Setup instructions (how to run locally)  
+- Short summary of AI use (detailed in `ai-usage-report.md`)  
+- Optional live deployment link (GitHub Pages, Netlify, Vercel)  
 
-You are required to use at least one AI development tool. Examples of acceptable use include:
-
-- **Code Generation**: GitHub Copilot, ChatGPT, Claude, etc.
-- **Debugging**: AI-powered debugging assistants
-- **Code Review**: AI tools for code quality improvement
-- **Documentation**: AI assistance for writing documentation
-- **Design**: AI tools for UI/UX suggestions
-
-For every use of AI:
-
-- **Documentation**: Clearly document how AI was used in each assignment
-- **Understanding**: Demonstrate understanding of AI-generated code
-- **Modification**: Show ability to modify and improve AI suggestions
-- **Ethics**: Use AI responsibly and ethically
-- **Learning**: Use AI as a learning tool, not a replacement for understanding
-
-Record it in `docs/ai-usage-report.md`.
-The assignment must include a report detailing:
-
-- **Tools Used**: List of AI tools and services utilized
-- **Use Cases**: Specific ways AI was employed in development
-- **Benefits**: How AI improved the development process
-- **Challenges**: Difficulties encountered with AI tools
-- **Learning Outcomes**: Skills gained through AI-assisted development
-
-### 6. Code Quality
-
-- Keep your code clean and readable.
-- Use consistent indentation and naming conventions.
-- Add comments where needed to explain non-obvious parts of your code.
-- Organize files logically (HTML, CSS, JS separated).
-- Avoid unused code, broken links, or unnecessary clutter.
-
-### 7. Documentation
-
-Your `README.md` should include:
-
-- A description of the project.
-- Instructions on how to run it locally.
-- A short summary of AI tools used (with the detailed log kept in `ai-usage-report.md`).
-- Optional: a link to a live deployment (GitHub Pages, Netlify, or Vercel).
+---
 
 ## 📦 Deliverables
+- Complete web app hosted on GitHub  
+- `README.md` with documentation  
+- AI usage report (`ai-usage-report.md`)  
+- Optional live demo link  
 
-- Complete web application hosted on GitHub
-- README.md with detailed documentation
-- AI integration report (how AI was used in development)
-- Live demo link (optional but recommended)
+---
 
 ## 📂 Submission Process
+1. Create a new GitHub repository for the assignment.  
+2. Develop and test all required features.  
+3. Update `README.md` and technical documentation.  
+4. Review to ensure all requirements are met.  
+5. Submit your repository link through Blackboard.  
 
-1. **Repository Setup**: Create a new repository for the assignment
-2. **Development**: Complete all requirements and testing
-3. **Documentation**: Update README and technical documentation
-4. **Final Review**: Ensure all requirements are met
-5. **Submission**: Submit repository link through Blackboard
+---
 
-## 🛠 Support and Resources
-
-Take advantage of the following resources to guide and support your learning:
-
-### Available Help
-
-- Office Hours: Attend regular instructor office hours for technical support.
-- Discussion Board: Use the course discussion board for peer-to-peer help, sharing ideas, or asking questions.
-- Documentation: Review the course materials and recommended external resources.
-- AI Tools: For coding assistance, debugging, and exploration (see recommended tools below).
+## 🛠 Support & Resources
+You can use the following to guide your work:  
+- **Office Hours**: Attend for technical support.  
+- **Discussion Board**: Peer-to-peer help and Q&A.  
+- **Course Docs & References**: Review provided materials.  
+- **AI Tools**: For coding, debugging, and design assistance.  
 
 ### Recommended AI Tools
+- GitHub Copilot → Code completion & generation  
+- ChatGPT / Claude → Problem-solving & explanations  
+- Cursor → AI-powered code editor  
+- Replit → AI-assisted online IDE  
+- AWS CodeWhisperer → AI code generation  
 
-- **GitHub Copilot**: Code completion and generation
-- **ChatGPT/Claude**: Problem-solving and code explanation
-- **Cursor**: AI-powered code editor
-- **Replit**: AI-assisted online development environment
-- **CodeWhisperer**: AWS AI code generators
+---
 
 ## 📜 Academic Integrity
+### ✅ Allowed
+- AI-assisted tools  
+- Peer discussion of ideas  
+- Sharing setup guides or references  
+- High-level feedback  
 
-### Permitted Collaboration
+### ❌ Not Allowed
+- Copying code from classmates  
+- Plagiarism or misrepresentation  
+- Unauthorized collaboration  
+- Submitting unmodified AI output as your own  
 
-- AI Tools: You may fully use AI-assisted development tools.
-- Peer Discussion: Talking about concepts, approaches, and general ideas is allowed.
-- Documentation: You may share setup guides or documentation references.
-- Code Review: Providing or receiving high-level feedback is acceptable.
-
-### Prohibited Activities
-
-- Direct Code Sharing: Do not copy/paste code from classmates.
-- Plagiarism: Do not submit work that is not your own.
-- Unauthorized Collaboration: Do not work jointly on individual assignments.
-- Misrepresentation: Do not present unmodified AI-generated work as entirely your own.
-
-⚡ Guideline: Always be transparent about your workflow. If AI or peers helped, document it. What matters most is that you understand your solution and can explain it clearly.
+⚡ Always be transparent: document how you used AI or peer help, and ensure you understand your solution.  
 
 ## 💯 Grading Rubric
 

@@ -95,9 +95,7 @@ Web Engineering & Development (SWE 363)
 let name = "Ali";        // string
 let age = 20;            // number
 let isStudent = true;    // boolean
-
 console.log(name, age, isStudent);
-
 
 ```
 ```javascript
@@ -106,11 +104,9 @@ console.log(name, age, isStudent);
 function greet(name) {
   return "Hello, " + name + "!";
 }
-
 console.log(greet("Ali"));
-
-
 ```
+---
 ```javascript
 
 <!-- 3. Objects ------------------------------------>
@@ -119,30 +115,26 @@ let student = {
   age: 20,
   isStudent: true
 };
-
 console.log(student.name); // outputs "Ali"
-
 ```
 ```javascript
 <!-- 4. Arrays ------------------------------------>
 let fruits = ["Apple", "Banana", "Mango"];
 console.log(fruits[0]);     // "Apple"
 console.log(fruits.length); // 3
-
 ```
+---
 ```html
 <!-- 5. DOM ------------------------------------>
 <!DOCTYPE html>
 <html>
 <body>
 <p id="demo">Hello</p>
-
 <script>
 document.getElementById("demo").innerHTML = "Hello, JavaScript!";
 </script>
 </body>
 </html>
-
 ```
 ```html
 <!-- 6. Events -------------------------------------->
@@ -151,15 +143,12 @@ document.getElementById("demo").innerHTML = "Hello, JavaScript!";
 <body>
 <button onclick="showMessage()">Click Me</button>
 <p id="output"></p>
-
 <script>
 function showMessage() {
-  document.getElementById("output").innerHTML = "Button was clicked!";
-}
+  document.getElementById("output").innerHTML = "Button was clicked!";}
 </script>
 </body>
 </html>
-
 ```
 
 ---
@@ -172,7 +161,6 @@ function Greeting(){
     alert("Alert me")
 }
 Greeting();
-
 ```
 ```javascript
 
@@ -180,48 +168,40 @@ const greet=function(){
     alert("Alert me")
 }
 greet();
-
 ```
 ```javascript
  const greet=()=>{
     alert("Alert me");
 }
 greet(); 
-
 ```
+---
+
 ```javascript
  document.getElementById("btn").onclick = function() {
     alert("Alert me");
 }; 
-
 ```
 ```javascript
-
  class Car {
   start() {
     alert("Alert me");
   }
 }
-
 const myCar = new Car();
 myCar.start(); // Trigger method 
-
 ```
 ```javascript
-
   function sayHi() {
-        alert("Alert me");
-  } 
-
+        alert("Alert me");  } 
 ```
 ```javascript
 
  (function(){
         alert("Alert me");
 })();
- 
- 
 ```
+---
 ```javascript
 
 function Person(name) {
@@ -244,7 +224,8 @@ p1.sayHello(); // Triggered on object
 
 ```
 ---
-# Let and Var keywords
+## Let and Var keywords
+---
 ![bg center](./img/VarLet.jpg)
 
 ---

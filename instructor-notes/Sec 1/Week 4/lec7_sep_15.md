@@ -226,7 +226,7 @@ p1.sayHello(); // Triggered on object
 ---
 ## Let and Var keywords
 ---
-![bg center](./img/VarLet.jpg)
+![ center](./img/VarLet.jpg)
 
 ---
 <!-- _class: demo -->

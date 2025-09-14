@@ -89,7 +89,7 @@ let isStudent = true;    // boolean
 console.log(name, age, isStudent);
 </script>
 
-<!-- 2. Functions -->
+<!-- 2. Functions ------------------------------------>
 <script>
 function greet(name) {
   return "Hello, " + name + "!";
@@ -98,7 +98,7 @@ function greet(name) {
 console.log(greet("Ali"));
 </script>
 
-<!-- 3. Objects -->
+<!-- 3. Objects ------------------------------------>
 <script>
 let student = {
   name: "Ali",
@@ -109,14 +109,14 @@ let student = {
 console.log(student.name); // outputs "Ali"
 </script>
 
-<!-- 4. Arrays -->
+<!-- 4. Arrays ------------------------------------>
 <script>
 let fruits = ["Apple", "Banana", "Mango"];
 console.log(fruits[0]);     // "Apple"
 console.log(fruits.length); // 3
 </script>
 
-<!-- 5. DOM -->
+<!-- 5. DOM ------------------------------------>
 <!DOCTYPE html>
 <html>
 <body>
@@ -128,7 +128,7 @@ document.getElementById("demo").innerHTML = "Hello, JavaScript!";
 </body>
 </html>
 
-<!-- 6. Events -->
+<!-- 6. Events -------------------------------------->
 <!DOCTYPE html>
 <html>
 <body>

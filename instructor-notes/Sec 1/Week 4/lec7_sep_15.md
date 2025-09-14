@@ -79,7 +79,7 @@ Web Engineering & Development (SWE 363)
 
 # 📘 JavaScript Basics – Simple Examples
 
-```
+```html
 <!-- 1. Variables -->
 <script>
 let name = "Ali";        // string
@@ -89,8 +89,6 @@ let isStudent = true;    // boolean
 console.log(name, age, isStudent);
 </script>
 
-```
-
 <!-- 2. Functions -->
 <script>
 function greet(name) {
@@ -99,8 +97,6 @@ function greet(name) {
 
 console.log(greet("Ali"));
 </script>
-
-```
 
 <!-- 3. Objects -->
 <script>
@@ -113,8 +109,6 @@ let student = {
 console.log(student.name); // outputs "Ali"
 </script>
 
-```
-
 <!-- 4. Arrays -->
 <script>
 let fruits = ["Apple", "Banana", "Mango"];
@@ -122,7 +116,6 @@ console.log(fruits[0]);     // "Apple"
 console.log(fruits.length); // 3
 </script>
 
-```
 <!-- 5. DOM -->
 <!DOCTYPE html>
 <html>
@@ -135,7 +128,6 @@ document.getElementById("demo").innerHTML = "Hello, JavaScript!";
 </body>
 </html>
 
-```
 <!-- 6. Events -->
 <!DOCTYPE html>
 <html>

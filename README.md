@@ -38,7 +38,7 @@ Hands-on coding demonstrations during class time (10% total grade):
 ## Assignments
 TBD
 
-Detailed guidelines available [here](./in-lab-pasrticipation.md).
+Detailed guidelines available [here](./assignments.md).
 
 ## Term Project
 Team-based web application project (25% total grade) with multiple phases:

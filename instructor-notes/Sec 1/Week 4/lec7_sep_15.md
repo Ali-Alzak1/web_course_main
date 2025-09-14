@@ -89,27 +89,31 @@ Web Engineering & Development (SWE 363)
 
 # 📘 JavaScript Basics – Simple Examples
 
-```html
+```javascript
 <!-- 1. Variables -->
-<script>
+
 let name = "Ali";        // string
 let age = 20;            // number
 let isStudent = true;    // boolean
 
 console.log(name, age, isStudent);
-</script>
 
+
+```
+```javascript
 <!-- 2. Functions ------------------------------------>
-<script>
+
 function greet(name) {
   return "Hello, " + name + "!";
 }
 
 console.log(greet("Ali"));
-</script>
+
+
+```
+```javascript
 
 <!-- 3. Objects ------------------------------------>
-<script>
 let student = {
   name: "Ali",
   age: 20,
@@ -117,15 +121,16 @@ let student = {
 };
 
 console.log(student.name); // outputs "Ali"
-</script>
 
+```
+```javascript
 <!-- 4. Arrays ------------------------------------>
-<script>
 let fruits = ["Apple", "Banana", "Mango"];
 console.log(fruits[0]);     // "Apple"
 console.log(fruits.length); // 3
-</script>
 
+```
+```html
 <!-- 5. DOM ------------------------------------>
 <!DOCTYPE html>
 <html>
@@ -138,6 +143,8 @@ document.getElementById("demo").innerHTML = "Hello, JavaScript!";
 </body>
 </html>
 
+```
+```html
 <!-- 6. Events -------------------------------------->
 <!DOCTYPE html>
 <html>

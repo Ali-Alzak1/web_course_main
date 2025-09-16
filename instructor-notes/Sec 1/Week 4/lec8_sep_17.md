@@ -178,6 +178,19 @@ console.log(myMap.size); // 1
 | `repeat(count)` | ```"ha".repeat(3)``` | `"hahaha"` |
 
 ---
+### Question 
+What is the ouput of each log?
+```javascript
+let str = "JavaScript";
+
+console.log(str.slice(0, 4));   
+console.log(str.slice(-6, -1)); 
+
+console.log(str.substring(0, 4));   
+console.log(str.substring(4, 0));   
+console.log(str.substring(-3, 4));  
+```
+---
 ###  Exception Handling
 ```javascript
 function divide(a, b) {

@@ -157,7 +157,7 @@ console.log(myMap.size); // 1
 ---
 ### JavaScript String Methods – Quick Reference
 
-# 📘 JavaScript String Methods – Examples
+### JavaScript String Methods – Examples
 
 | **Method** | **Example Code** | **Output** |
 |------------|------------------|------------|

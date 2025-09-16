@@ -36,8 +36,6 @@ Hands-on coding demonstrations during class time (10% total grade):
 - See demos table at the bottom of the page
 
 ## Assignments
-TBD
-
 Detailed guidelines available [here](./assignments.md).
 
 ## Term Project

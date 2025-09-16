@@ -157,25 +157,27 @@ console.log(myMap.size); // 1
 ---
 ### JavaScript String Methods – Quick Reference
 
+# 📘 JavaScript String Methods – Examples
 
-| **Method** | **Description** | **Example Code** | **Output** |
-|------------|-----------------|------------------|------------|
-| `length`   | Returns the length of the string | ```javascript\n"Hello".length\n``` | `5` |
-| `toUpperCase()` | Converts to uppercase | ```javascript\n"hello".toUpperCase()\n``` | `"HELLO"` |
-| `toLowerCase()` | Converts to lowercase | ```javascript\n"HELLO".toLowerCase()\n``` | `"hello"` |
-| `charAt(index)` | Returns character at given index | ```javascript\n"World".charAt(1)\n``` | `"o"` |
-| `indexOf(value)` | Finds first index of substring | ```javascript\n"banana".indexOf("na")\n``` | `2` |
-| `lastIndexOf(value)` | Finds last index of substring | ```javascript\n"banana".lastIndexOf("na")\n``` | `4` |
-| `includes(value)` | Checks if substring exists | ```javascript\n"hello".includes("he")\n``` | `true` |
-| `startsWith(value)` | Checks if string starts with substring | ```javascript\n"JavaScript".startsWith("Java")\n``` | `true` |
-| `endsWith(value)` | Checks if string ends with substring | ```javascript\n"hello".endsWith("lo")\n``` | `true` |
-| `slice(start, end)` | Extracts part of string | ```javascript\n"Hello".slice(1, 4)\n``` | `"ell"` |
-| `substring(start, end)` | Similar to `slice` but no negative indexes | ```javascript\n"Hello".substring(1, 4)\n``` | `"ell"` |
-| `substr(start, length)` | Extracts part of string with length | ```javascript\n"Hello".substr(1, 3)\n``` | `"ell"` |
-| `replace(find, new)` | Replaces part of string | ```javascript\n"I like cats".replace("cats", "dogs")\n``` | `"I like dogs"` |
-| `trim()` | Removes whitespace from both ends | ```javascript\n"  Hi  ".trim()\n``` | `"Hi"` |
-| `split(separator)` | Splits string into array | ```javascript\n"a,b,c".split(",")\n``` | `["a","b","c"]` |
-| `repeat(count)` | Repeats string given times | ```javascript\n"ha".repeat(3)\n``` | `"hahaha"` |
+| **Method** | **Example Code** | **Output** |
+|------------|------------------|------------|
+| `length`   | ```javascript\n"Hello".length\n``` | `5` |
+| `toUpperCase()` | ```javascript\n"hello".toUpperCase()\n``` | `"HELLO"` |
+| `toLowerCase()` | ```javascript\n"HELLO".toLowerCase()\n``` | `"hello"` |
+| `charAt(index)` | ```javascript\n"World".charAt(1)\n``` | `"o"` |
+| `indexOf(value)` | ```javascript\n"banana".indexOf("na")\n``` | `2` |
+| `lastIndexOf(value)` | ```javascript\n"banana".lastIndexOf("na")\n``` | `4` |
+| `includes(value)` | ```javascript\n"hello".includes("he")\n``` | `true` |
+| `startsWith(value)` | ```javascript\n"JavaScript".startsWith("Java")\n``` | `true` |
+| `endsWith(value)` | ```javascript\n"hello".endsWith("lo")\n``` | `true` |
+| `slice(start, end)` | ```javascript\n"Hello".slice(1, 4)\n``` | `"ell"` |
+| `substring(start, end)` | ```javascript\n"Hello".substring(1, 4)\n``` | `"ell"` |
+| `substr(start, length)` | ```javascript\n"Hello".substr(1, 3)\n``` | `"ell"` |
+| `replace(find, new)` | ```javascript\n"I like cats".replace("cats", "dogs")\n``` | `"I like dogs"` |
+| `trim()` | ```javascript\n"  Hi  ".trim()\n``` | `"Hi"` |
+| `split(separator)` | ```javascript\n"a,b,c".split(",")\n``` | `["a","b","c"]` |
+| `repeat(count)` | ```javascript\n"ha".repeat(3)\n``` | `"hahaha"` |
+
 ---
 ###  Exception Handling
 ```javascript

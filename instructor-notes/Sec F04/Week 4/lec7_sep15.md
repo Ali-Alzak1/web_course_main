@@ -71,8 +71,6 @@ Web Engineering & Development (SWE 363)
 - JS Functions 
 - JS Objects 
 - JS Arrays 
-- JS DOM 
-- JS Events 
 
 ### Reference: 
 - Zybook: 4.1 to 4.7

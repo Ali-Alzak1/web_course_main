@@ -136,12 +136,12 @@ for (let [key, value] of Object.entries(fruits)) {
 let myMap = new Map();
 
 // 1️⃣ set(key, value) → add or update a key-value pair
-myMap.set("name", "Ali");
+myMap.set("name", "Turki");
 myMap.set("age", 21);
-console.log(myMap); // Map { 'name' => 'Ali', 'age' => 21 }
+console.log(myMap); // Map { 'name' => 'Turki', 'age' => 21 }
 
 // 2️⃣ get(key) → retrieve the value by key
-console.log(myMap.get("name")); // Ali
+console.log(myMap.get("name")); // Turki
 
 // 3️⃣ has(key) → check if a key exists
 console.log(myMap.has("age")); // true
@@ -149,12 +149,35 @@ console.log(myMap.has("grade")); // false
 
 // 4️⃣ delete(key) → remove a key-value pair
 myMap.delete("age");
-console.log(myMap); // Map { 'name' => 'Ali' }
+console.log(myMap); // Map { 'name' => 'Turki' }
 
 // 5️⃣ size → number of elements in the map
 console.log(myMap.size); // 1
 ```
 ---
+###  Exception Handling
+```javascript
+function divide(a, b) {
+  try {
+    if (b === 0) {
+      // throw an error if dividing by zero
+      throw new Error("You cannot divide by zero!");
+    }
+    let result = a / b;
+    console.log("Result:", result);
+  } catch (error) {
+    // handle the error
+    console.log("Error:", error.message);
+  } finally {
+    // this block always runs
+    console.log("Operation finished.");
+  }
+}
+// Test cases
+divide(10, 2); // ✅ prints Result: 5
+divide(10, 0); // ❌ prints Error and still runs finally
+```
+----
 ### Regular Expressions – Quick Reference with `.test()`
 
 | Pattern    | Meaning                        | Example Code                        | Output  |
@@ -176,6 +199,20 @@ console.log(myMap.size); // 1
 | `/\s/`     | Matches whitespace               | `/\s/.test("a b");` <br> `/\s/.test("abc");` | `true` <br> `false` |
 | `/\S/`     | Matches non-whitespace           | `/\S/.test("a b");` <br> `/\S/.test("   ");` | `true` <br> `false` |
 | `/\bword\b/` | Matches whole word boundary    | `/\bword\b/.test("a word here");` <br> `/\bword\b/.test("swordfish");` | `true` <br> `false` |
+
+---
+# 📘 Regular Expressions – Quick Reference with `.test()`
+
+| **Pattern**   | **Meaning**               | **Example Code**                         | **Output** |
+|---------------|---------------------------|------------------------------------------|------------|
+| ``/abc/``     | Matches the string **abc** | ``/abc/.test("abc123")`` <br> ``/abc/.test("xyz")`` | ✅ `true` <br> ❌ `false` |
+| ``/^abc/``    | **abc** at the start      | ``/^abc/.test("abcdef")`` <br> ``/^abc/.test("zabc")`` | ✅ `true` <br> ❌ `false` |
+| ``/abc$/``    | **abc** at the end        | ``/abc$/.test("123abc")`` <br> ``/abc$/.test("abc123")`` | ✅ `true` <br> ❌ `false` |
+| ``/\d/``      | Matches a **digit**       | ``/\d/.test("a1b2")`` <br> ``/\d/.test("abc")`` | ✅ `true` <br> ❌ `false` |
+| ``/\D/``      | Matches a **non-digit**   | ``/\D/.test("a1b2")`` <br> ``/\D/.test("123")`` | ✅ `true` <br> ❌ `false` |
+| ``/\s/``      | Matches **whitespace**    | ``/\s/.test("a b")`` <br> ``/\s/.test("abc")`` | ✅ `true` <br> ❌ `false` |
+| ``/\S/``      | Matches **non-whitespace** | ``/\S/.test("a b")`` <br> ``/\S/.test("   ")`` | ✅ `true` <br> ❌ `false` |
+
 ---
 
 <!-- _class: demo -->

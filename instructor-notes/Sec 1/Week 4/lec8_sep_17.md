@@ -155,7 +155,6 @@ console.log(myMap); // Map { 'name' => 'Turki' }
 console.log(myMap.size); // 1
 ```
 ---
-### JavaScript String Methods – Quick Reference
 
 ### JavaScript String Methods – Examples
 

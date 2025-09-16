@@ -36,9 +36,7 @@ Hands-on coding demonstrations during class time (10% total grade):
 - See demos table at the bottom of the page
 
 ## Assignments
-TBD
-
-Detailed guidelines available [here](./in-lab-pasrticipation.md).
+Detailed guidelines available [here](./assignments.md).
 
 ## Term Project
 Team-based web application project (25% total grade) with multiple phases:
@@ -93,3 +91,4 @@ Complete project description available [here](./term_project.md).
 | 3.1 CSS Basics | Using CSS, Selectors | [View Demo](https://classroom.github.com/a/AmqNvXqN) |
 | 3.2 More CSS | Variables, Flexbox & Positioning | [View Demo](https://classroom.github.com/a/UgtyIKLp) |
 | 4.1 JS Basics | Variables, operations, conditions, loops, arrays | [View Demo](https://classroom.github.com/a/do3A9tGZ) |
+| 4.2 JS Advanved | Objects, Map, String Object, Date & Math Objects, Exception Handling, Regular Expressions | [View Demo](https://classroom.github.com/a/J0-Up346) |

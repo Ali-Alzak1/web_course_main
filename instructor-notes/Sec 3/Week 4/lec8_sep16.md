@@ -66,21 +66,22 @@ Web Engineering & Development (SWE 363)
 
 # In today's lecture:
 
-- JS Syntax 
-- Arithmatic 
-- Conditionals
-- Loops 
-- Functions 
-- Scope
-- Arrays
+- Objects
+- Maps 
+- String
+- Date
+- Math
+- Exception Handling
+- Regular Expressions
 
 ### Reference: 
-- Zybook: 4.1 to 4.8
+- Zybook: 4.9 to 4.15
 
 ---
 
 # Announcements 📣
 - Project Assignment #1 is due This Thursday at 11:59 PM
+- Quiz next class 
 
 ---
 
@@ -88,10 +89,10 @@ Web Engineering & Development (SWE 363)
 
 >45m
 # Demo
-Starter code at: web-engineering-kfupm-classroom-4-1-js-fundamentals/
+Starter code at: web-engineering-kfupm-classroom-4-1-js-advanced/
 
 ---
 
 # Next Class
 
-- Js Part 2 
+- Quiz

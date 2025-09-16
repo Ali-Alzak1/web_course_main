@@ -79,6 +79,11 @@ Web Engineering & Development (SWE 363)
 - Zybook: 4.9 to 4.15
 
 ---
+# Announcements 📣
+- Project Phase #2 is due This Thursday at 11:59 PM
+- Quiz next class 
+
+---
 ### object Examples
 ``` javascript
 const fruits = { "f1": "apple", "f2": "grape", "f3": "banana", "f4": "peach" };
@@ -171,12 +176,6 @@ console.log(myMap.size); // 1
 | `/\s/`     | Matches whitespace               | `/\s/.test("a b");` <br> `/\s/.test("abc");` | `true` <br> `false` |
 | `/\S/`     | Matches non-whitespace           | `/\S/.test("a b");` <br> `/\S/.test("   ");` | `true` <br> `false` |
 | `/\bword\b/` | Matches whole word boundary    | `/\bword\b/.test("a word here");` <br> `/\bword\b/.test("swordfish");` | `true` <br> `false` |
-
----
-# Announcements 📣
-- Project Phase #2 is due This Thursday at 11:59 PM
-- Quiz next class 
-
 ---
 
 <!-- _class: demo -->

@@ -43,7 +43,7 @@ style: |
     }
     section.center {text-align:center}
     section.big-code pre {font-size:2rem}
-footer: 'SWE 363 | 251 | Sec 3 | KFUPM'
+footer: 'SWE 363 | 251 | Sec F04 | KFUPM'
 ---
 <!-- 
 
@@ -60,22 +60,21 @@ Todays goals:
 
 Web Engineering & Development (SWE 363) 
 # 4.1 JavaScript Fundamentals
-### Dr. Omar Hammad
+### Created by: Dr. Omar Hammad
+### Lectured by: Dr. Khadijah Al Safwan
 
 ---
 
 # In today's lecture:
 
-- JS Syntax 
-- Arithmatic 
-- Conditionals
-- Loops 
-- Functions 
-- Scope
-- Arrays
+- JS Variables 
+- JS Functions 
+- JS Objects 
+- JS Arrays 
 
 ### Reference: 
-- Zybook: 4.1 to 4.8
+- Zybook: 4.1 to 4.7
+
 
 ---
 
@@ -88,7 +87,7 @@ Web Engineering & Development (SWE 363)
 
 >45m
 # Demo
-Starter code at: web-engineering-kfupm-classroom-4-1-js-fundamentals/
+Starter code at: web-engineering-kfupm-classroom-4-1-js-fundamentals-4-1-js-fundamentals-Dromarjh-main/
 
 ---
 

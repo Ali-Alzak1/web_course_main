@@ -160,22 +160,22 @@ console.log(myMap.size); // 1
 
 | **Method** | **Example Code** | **Output** |
 |------------|------------------|------------|
-| `length`   | ```javascript\n"Hello".length\n``` | `5` |
-| `toUpperCase()` | ```javascript\n"hello".toUpperCase()\n``` | `"HELLO"` |
-| `toLowerCase()` | ```javascript\n"HELLO".toLowerCase()\n``` | `"hello"` |
-| `charAt(index)` | ```javascript\n"World".charAt(1)\n``` | `"o"` |
-| `indexOf(value)` | ```javascript\n"banana".indexOf("na")\n``` | `2` |
-| `lastIndexOf(value)` | ```javascript\n"banana".lastIndexOf("na")\n``` | `4` |
-| `includes(value)` | ```javascript\n"hello".includes("he")\n``` | `true` |
-| `startsWith(value)` | ```javascript\n"JavaScript".startsWith("Java")\n``` | `true` |
-| `endsWith(value)` | ```javascript\n"hello".endsWith("lo")\n``` | `true` |
-| `slice(start, end)` | ```javascript\n"Hello".slice(1, 4)\n``` | `"ell"` |
-| `substring(start, end)` | ```javascript\n"Hello".substring(1, 4)\n``` | `"ell"` |
-| `substr(start, length)` | ```javascript\n"Hello".substr(1, 3)\n``` | `"ell"` |
-| `replace(find, new)` | ```javascript\n"I like cats".replace("cats", "dogs")\n``` | `"I like dogs"` |
-| `trim()` | ```javascript\n"  Hi  ".trim()\n``` | `"Hi"` |
-| `split(separator)` | ```javascript\n"a,b,c".split(",")\n``` | `["a","b","c"]` |
-| `repeat(count)` | ```javascript\n"ha".repeat(3)\n``` | `"hahaha"` |
+| `length`   | ```"Hello".length``` | `5` |
+| `toUpperCase()` | ```"hello".toUpperCase()``` | `"HELLO"` |
+| `toLowerCase()` | ```"HELLO".toLowerCase()``` | `"hello"` |
+| `charAt(index)` | ```"World".charAt(1)``` | `"o"` |
+| `indexOf(value)` | ```"banana".indexOf("na")``` | `2` |
+| `lastIndexOf(value)` | ```"banana".lastIndexOf("na")``` | `4` |
+| `includes(value)` | ```"hello".includes("he")``` | `true` |
+| `startsWith(value)` | ```"JavaScript".startsWith("Java")``` | `true` |
+| `endsWith(value)` | ```"hello".endsWith("lo")``` | `true` |
+| `slice(start, end)` | ```"Hello".slice(1, 4)``` | `"ell"` |
+| `substring(start, end)` | ```"Hello".substring(1, 4)``` | `"ell"` |
+| `substr(start, length)` | ```"Hello".substr(1, 3)``` | `"ell"` |
+| `replace(find, new)` | ```"I like cats".replace("cats", "dogs")``` | `"I like dogs"` |
+| `trim()` | ```"  Hi  ".trim()``` | `"Hi"` |
+| `split(separator)` | ```"a,b,c".split(",")``` | `["a","b","c"]` |
+| `repeat(count)` | ```"ha".repeat(3)``` | `"hahaha"` |
 
 ---
 ###  Exception Handling

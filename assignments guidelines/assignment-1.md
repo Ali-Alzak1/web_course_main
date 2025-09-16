@@ -1,6 +1,6 @@
 # Assignment 1️⃣ – Foundation & AI Integration
 
-## **Due: Week 4 | Weight: 2%**
+## **Due: Week 5 | Weight: 2%**
 
 
 # 🎯 Objective

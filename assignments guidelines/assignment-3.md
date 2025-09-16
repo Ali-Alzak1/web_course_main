@@ -1,6 +1,6 @@
 # Assignment 3️⃣ – Advanced Functionality
 
-## **Due: Week 10 | Weight: 2%**
+## **Due: Week 13 | Weight: 2%**
 
 ## 🎯 Objective
 

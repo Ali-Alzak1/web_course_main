@@ -1,6 +1,6 @@
 # Assignment 2️⃣ – Interactive Features
 
-## **Due: Week 7 | Weight: 2%**
+## **Due: Week 9 | Weight: 2%**
 
 ## 🎯 Objective
 

@@ -155,6 +155,28 @@ console.log(myMap); // Map { 'name' => 'Turki' }
 console.log(myMap.size); // 1
 ```
 ---
+### JavaScript String Methods – Quick Reference
+
+
+| **Method** | **Description** | **Example Code** | **Output** |
+|------------|-----------------|------------------|------------|
+| `length`   | Returns the length of the string | ```javascript\n"Hello".length\n``` | `5` |
+| `toUpperCase()` | Converts to uppercase | ```javascript\n"hello".toUpperCase()\n``` | `"HELLO"` |
+| `toLowerCase()` | Converts to lowercase | ```javascript\n"HELLO".toLowerCase()\n``` | `"hello"` |
+| `charAt(index)` | Returns character at given index | ```javascript\n"World".charAt(1)\n``` | `"o"` |
+| `indexOf(value)` | Finds first index of substring | ```javascript\n"banana".indexOf("na")\n``` | `2` |
+| `lastIndexOf(value)` | Finds last index of substring | ```javascript\n"banana".lastIndexOf("na")\n``` | `4` |
+| `includes(value)` | Checks if substring exists | ```javascript\n"hello".includes("he")\n``` | `true` |
+| `startsWith(value)` | Checks if string starts with substring | ```javascript\n"JavaScript".startsWith("Java")\n``` | `true` |
+| `endsWith(value)` | Checks if string ends with substring | ```javascript\n"hello".endsWith("lo")\n``` | `true` |
+| `slice(start, end)` | Extracts part of string | ```javascript\n"Hello".slice(1, 4)\n``` | `"ell"` |
+| `substring(start, end)` | Similar to `slice` but no negative indexes | ```javascript\n"Hello".substring(1, 4)\n``` | `"ell"` |
+| `substr(start, length)` | Extracts part of string with length | ```javascript\n"Hello".substr(1, 3)\n``` | `"ell"` |
+| `replace(find, new)` | Replaces part of string | ```javascript\n"I like cats".replace("cats", "dogs")\n``` | `"I like dogs"` |
+| `trim()` | Removes whitespace from both ends | ```javascript\n"  Hi  ".trim()\n``` | `"Hi"` |
+| `split(separator)` | Splits string into array | ```javascript\n"a,b,c".split(",")\n``` | `["a","b","c"]` |
+| `repeat(count)` | Repeats string given times | ```javascript\n"ha".repeat(3)\n``` | `"hahaha"` |
+---
 ###  Exception Handling
 ```javascript
 function divide(a, b) {
@@ -199,19 +221,6 @@ divide(10, 0); // ❌ prints Error and still runs finally
 | `/\s/`     | Matches whitespace               | `/\s/.test("a b");` <br> `/\s/.test("abc");` | `true` <br> `false` |
 | `/\S/`     | Matches non-whitespace           | `/\S/.test("a b");` <br> `/\S/.test("   ");` | `true` <br> `false` |
 | `/\bword\b/` | Matches whole word boundary    | `/\bword\b/.test("a word here");` <br> `/\bword\b/.test("swordfish");` | `true` <br> `false` |
-
----
-# 📘 Regular Expressions – Quick Reference with `.test()`
-
-| **Pattern**   | **Meaning**               | **Example Code**                         | **Output** |
-|---------------|---------------------------|------------------------------------------|------------|
-| ``/abc/``     | Matches the string **abc** | ``/abc/.test("abc123")`` <br> ``/abc/.test("xyz")`` | ✅ `true` <br> ❌ `false` |
-| ``/^abc/``    | **abc** at the start      | ``/^abc/.test("abcdef")`` <br> ``/^abc/.test("zabc")`` | ✅ `true` <br> ❌ `false` |
-| ``/abc$/``    | **abc** at the end        | ``/abc$/.test("123abc")`` <br> ``/abc$/.test("abc123")`` | ✅ `true` <br> ❌ `false` |
-| ``/\d/``      | Matches a **digit**       | ``/\d/.test("a1b2")`` <br> ``/\d/.test("abc")`` | ✅ `true` <br> ❌ `false` |
-| ``/\D/``      | Matches a **non-digit**   | ``/\D/.test("a1b2")`` <br> ``/\D/.test("123")`` | ✅ `true` <br> ❌ `false` |
-| ``/\s/``      | Matches **whitespace**    | ``/\s/.test("a b")`` <br> ``/\s/.test("abc")`` | ✅ `true` <br> ❌ `false` |
-| ``/\S/``      | Matches **non-whitespace** | ``/\S/.test("a b")`` <br> ``/\S/.test("   ")`` | ✅ `true` <br> ❌ `false` |
 
 ---
 

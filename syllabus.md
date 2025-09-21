@@ -40,21 +40,23 @@ After completing this course, you should be able to:
 5. Incorporate best practices to boost the sustainability, usability, and accessibility of web applications.
 
 ### Tentative Lectures Plan (Based on Zybooks Sections)
-|Week|Topic|
-|-----|------|
-| 1  | Introduction to Web Programming |
-| 2  | HTML  | 
-| 3  | CSS |
-| 4  | JavaScript |
-| 5  | Hands-on + Quiz |
-| 6-8 | Interactive Front-End (React) |
-| 9  | Hands-on + Quiz |
-| 10 | Back-end Development Fundamentals|
-| 11 | Back-End Nodejs & Express |
-| 12 | MongoDB |
-| 13 | Web Security |
-| 14 | Hands-on + Quiz |
-| 15 | Exam Review & Presentations |
+|Week|Topic|Zybook Sections|
+|-----|------|---------------|
+| 1  | Introduction to Web Programming | Lec1: 1.1-1.3, Lec2: 1.4-1.6 |
+| 2  | HTML  | Lec1: 2.1-2.6, Lec2: 2.7-2.9 |
+| 3  | CSS | Lec1: 3.1-3.4, Lec2: 3.5-3.8 |
+| 4  | JavaScript | Lec1: 4.1-4.8, Lec2: 4.9-4.15 |
+| 5  | Hands-on + Quiz | - |
+| 6  | Interactive Front-End Dev | Lec1: 5.1-5.4, Lec2: 5.5 & 5.6 |
+| 7  | Interactive Front-End Dev | Lec1: 5.7-5.8, Lec2: 5.9-5.10 |
+| 8  | Interactive Front-End Dev | Lec1: 5.11-5.14, Lec2: 5.15-5.17 |
+| 9  | Hands-on + Quiz | - |
+| 10 | Back-end Development Fundamentals | Lec1: 6.1, Lec2: 6.2-6.3 |
+| 11 | Back-End Nodejs & Express | Lec1: 6.4, Lec2: 6.5 |
+| 12 | MongoDB | Lec1: 7.1-7.2, Lec2: 7.3-7.4 |
+| 13 | Web Security | Lec1: 8.1, Lec2: 8.2-8.3 |
+| 14 | Hands-on + Quiz | - |
+| 15 | Exam Review & Presentations | - |
 
 ### Reference Materials
 - This repository  

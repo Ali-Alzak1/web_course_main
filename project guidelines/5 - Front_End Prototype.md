@@ -1,7 +1,7 @@
-# Milestone 4️⃣ - Front-End Prototype
+# Milestone 4️⃣ - Front-End 
 
 ## 🎯 Objective:
-Develop a fully interactive front-end prototype for your web application using React (or plain HTML, CSS, and JavaScript). The prototype should demonstrate all key functionalities and interactivity. While the UI design phase is now optional, a reference Figma file is required to evaluate your ability to translate UI requirements into code.
+Develop a fully interactive front-end prototype for your web application using React. The prototype should demonstrate all key functionalities and interactivity. While the UI design phase is now optional, a reference Figma file is required to evaluate your ability to translate UI requirements into code.
 
 ## 🛠️ Github Setup:
 ### 1. All students should get the Github Education Pack:
@@ -52,7 +52,7 @@ Note:
 - If you skip the UI design, you must still provide a **reference Figma file** (e.g., a basic wireframe or template) to guide your front-end implementation.
 
 ### 2. Front-End Implementation:
-- Use **React** (or plain HTML, CSS, and JavaScript) as the front-end framework to build your application.
+- Use **React** as the front-end framework to build your application.
 - Implement the HTML, CSS, and JavaScript based on your Figma design.
 - You may use a CSS framework (e.g., Bootstrap, TailwindCSS) to enhance your design and save time.
 
@@ -108,5 +108,4 @@ The submission will be graded out of 100 points, divided as follows:
 | **Responsiveness (10)** | The layout is fully responsive across all devices, with no issues on desktop or mobile. | The layout is responsive, with minor issues on either desktop or mobile. | The layout is somewhat responsive, with noticeable issues in responsiveness. | The layout has limited responsiveness, with significant issues on multiple devices. | The layout is not responsive and does not work properly on desktop or mobile. |
 | **Clear Documentation (10)** | GitHub repository is well-documented, including a detailed README with setup instructions and usage details. | GitHub repository is documented, but setup instructions or some details are unclear. | GitHub documentation exists but is incomplete or lacks clarity. | GitHub documentation is minimal and insufficient for understanding the project.  | GitHub repository lacks documentation or contains inaccurate information. |
 | **File Structure and Version Control (10)** | Repository has a clear file structure, proper `.gitignore` usage, and excellent version control practices. | Repository has a mostly clear file structure and good version control, with minor improvements needed. | Repository has an acceptable file structure but lacks proper `.gitignore` usage or good version control practices. | Repository file structure or version control is poorly implemented. | Repository lacks organization, `.gitignore`, or version control practices. |
-| **Individual Contributions (5)** | All team members have significant and tracked contributions on GitHub. | Most team members have significant contributions tracked on GitHub. | Some team members have tracked contributions, but participation is uneven. | Contributions are minimal, and a few team members dominate the work. | Contributions are absent or lack any evidence of teamwork. |
-| **Peer Review Submission (5)**| Peer review is submitted on time, with constructive and detailed feedback provided for other groups. | Peer review is submitted on time, with helpful but slightly less detailed feedback. | Peer review is submitted but lacks depth or significant constructive feedback. | Peer review is minimally completed, with little useful feedback provided. | Peer review is missing, incomplete, or submitted late without justification. |
+| **Individual Contributions (10)** | All team members have significant and tracked contributions on GitHub. | Most team members have significant contributions tracked on GitHub. | Some team members have tracked contributions, but participation is uneven. | Contributions are minimal, and a few team members dominate the work. | Contributions are absent or lack any evidence of teamwork. |

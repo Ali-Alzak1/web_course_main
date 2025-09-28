@@ -92,3 +92,4 @@ Complete project description available [here](./term_project.md).
 | 3.2 More CSS | Variables, Flexbox & Positioning | [View Demo](https://classroom.github.com/a/UgtyIKLp) |
 | 4.1 JS Basics | Variables, operations, conditions, loops, arrays | [View Demo](https://classroom.github.com/a/do3A9tGZ) |
 | 4.2 JS Advanved | Objects, Map, String Object, Date & Math Objects, Exception Handling, Regular Expressions | [View Demo](https://classroom.github.com/a/J0-Up346) |
+| 5.1 DOM Manipulation and API | DOM manipulation, tech from json, third part PAI | [View Demo]([https://classroom.github.com/a/J0-Up346](https://classroom.github.com/a/hjjkdT3x)) |

@@ -47,9 +47,9 @@ After completing this course, you should be able to:
 | 3  | CSS | Lec1: 3.1-3.4, Lec2: 3.5-3.8 |
 | 4  | JavaScript | Lec1: 4.1-4.8, Lec2: 4.9-4.15 |
 | 5  | Hands-on + Quiz | - |
-| 6  | Interactive Front-End Dev | Lec1: 5.1-5.4, Lec2: 5.5 & 5.6 |
-| 7  | Interactive Front-End Dev | Lec1: 5.7-5.8, Lec2: 5.9-5.10 |
-| 8  | Interactive Front-End Dev | Lec1: 5.11-5.14, Lec2: 5.15-5.17 |
+| 6  | Interactive Front-End Dev | Lec1: 5.1-5.4, Lec2: 5.5-5.7 |
+| 7  | Interactive Front-End Dev | Lec1: 5.7-5.8, Lec2: 5.9-5.11 |
+| 8  | Interactive Front-End Dev | Lec1: 5.12-5.14, Lec2: 5.15-5.17 |
 | 9  | Hands-on + Quiz | - |
 | 10 | Back-end Development Fundamentals | Lec1: 6.1, Lec2: 6.2-6.3 |
 | 11 | Back-End Nodejs & Express | Lec1: 6.4, Lec2: 6.5 |

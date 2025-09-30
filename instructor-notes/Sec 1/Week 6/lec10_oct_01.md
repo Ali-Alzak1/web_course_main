@@ -92,7 +92,7 @@ This page gives you a fast start with **React using Vite**, explains **JSX**, an
 
 ---
 
-## 🚀 Start a React project with Vite
+## Start a React project with Vite
 
 ```bash
 # create a project
@@ -112,7 +112,7 @@ npm run dev
 
 ---
 
-## 🟦 What is JSX?
+## What is JSX?
 **JSX** stands for **JavaScript XML**.
 
 - It’s a **syntax extension** for JavaScript used in **React**.
@@ -127,7 +127,7 @@ npm run dev
 
 ---
 
-## 📝 Examples
+## Examples
 
 ### Without JSX (pure JavaScript)
 ```js
@@ -154,7 +154,7 @@ export default Hello;
 
 ---
 
-## ⚡ Embedding JS in JSX
+## Embedding JS in JSX
 ```jsx
 const name = "Hasan";
 const age = 25;
@@ -172,7 +172,7 @@ Here, `{name}` and `{age}` are **JavaScript expressions** inside JSX.
 
 ---
 
-## 🔥 Vite vs CRA
+## Vite vs CRA
 
 | Feature | **Vite** | **Create React App (CRA)** |
 |--------|----------|-----------------------------|
@@ -187,13 +187,13 @@ Here, `{name}` and `{age}` are **JavaScript expressions** inside JSX.
 
 ---
 
-## ✅ Quick Tips
+## Quick Tips
 - Use **`npm run dev`** for development, **`npm run build`** for production, and **`npm run preview`** to test the build locally.
 - Add Tailwind, ESLint, and Prettier easily via Vite plugins or templates.
 
 ---
 
-## 📁 Suggested Repo Structure
+## Suggested Repo Structure
 ```
 my-app/
 ├─ src/
@@ -210,7 +210,7 @@ my-app/
 
 ---
 
-## 👀 Example `StudentCard.jsx`
+## Example `StudentCard.jsx`
 ```jsx
 function StudentCard({ name, id, department }) {
   return (
@@ -251,9 +251,11 @@ export default App;
 ```
 ---
 
-## 📚 Notes
+## Notes
 - JSX requires a **single parent element** to be returned from a component.
 - Use `className` instead of `class` in JSX.
 - Expressions inside JSX go in `{ }`.
 
 ---
+Lab Exercise 6-2
+https://classroom.github.com/a/09PRaIoj

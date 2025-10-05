@@ -174,7 +174,7 @@ src/component/Tasks.jsx
 export default function Tasks({ idx, value }) {
   return <p>{idx}-{value}</p>;
 }
-
+```
 ---
-Lab Exercise 5-3
+## Lab Exercise 5-3
 https://classroom.github.com/a/wiJZiwXu

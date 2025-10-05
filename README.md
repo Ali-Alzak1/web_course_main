@@ -94,3 +94,4 @@ Complete project description available [here](./term_project.md).
 | 4.2 JS Advanved | Objects, Map, String Object, Date & Math Objects, Exception Handling, Regular Expressions | [View Demo](https://classroom.github.com/a/J0-Up346) |
 | 5.1 DOM Manipulation and API | DOM manipulation, fetch from json, third party API | [View Demo](https://classroom.github.com/a/MWp12_By) |
 | 5.2 React Starter | Intro to React, JSX syntax, components, props, rendering | [View Demo](https://classroom.github.com/a/09PRaIoj) |
+| 5.3 More React | Event handling, States | [View Demo](https://classroom.github.com/a/wiJZiwXu) |

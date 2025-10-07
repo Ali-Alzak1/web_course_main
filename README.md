@@ -95,3 +95,4 @@ Complete project description available [here](./term_project.md).
 | 5.1 DOM Manipulation and API | DOM manipulation, fetch from json, third party API | [View Demo](https://classroom.github.com/a/MWp12_By) |
 | 5.2 React Starter | Intro to React, JSX syntax, components, props, rendering | [View Demo](https://classroom.github.com/a/09PRaIoj) |
 | 5.3 More React | Event handling, States | [View Demo](https://classroom.github.com/a/wiJZiwXu) |
+| 5.4 More React | Conditional rendering, Lists | [View Demo](https://classroom.github.com/a/4OG8kbSm) |

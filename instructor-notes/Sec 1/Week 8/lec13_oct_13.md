@@ -84,12 +84,9 @@ footer: 'SWE 363 | 251 | Sec 01 | KFUPM'
 
 Web Engineering & Development (SWE 363) 
 ### Hasan Al-kaf
-# Lists, Forms, and Routes
-
+# Lists, Forms, and Routes, and useParams
 ## 1. React Lists
-
 React uses **lists** to render multiple elements dynamically from arrays using the **`.map()`** method.
-
 ### Example
 ```jsx
 function StudentList() {
@@ -153,7 +150,7 @@ function ContactForm() {
   );
 }
 ```
-
+---
 ### Rules
 - Always use `value` and `onChange` to control input data.
 - Prevent default form submission using `e.preventDefault()`.
@@ -186,7 +183,7 @@ React Router lets you create **multiple pages (routes)** in a single-page React 
 ```bash
 npm install react-router-dom
 ```
-
+---
 ### Example
 ```jsx
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
@@ -215,7 +212,7 @@ function App() {
   );
 }
 ```
-
+---
 ### Rules
 - Wrap everything inside `<BrowserRouter>`.
 - Use `<Routes>` (not `<Switch>`) for React Router v6+.
@@ -233,6 +230,55 @@ function App() {
 ```jsx
 <Route path="/about" element={<About />} />
 <Link to="/about">About</Link>
+```
+---
+## 4.How useParams Works
+Route Definition: You define a route path with placeholders (dynamic segments) marked by a colon (:).
+
+JavaScript
+
+<Route path="/products/:productId" element={<ProductDetails />} />
+URL Matching: When a user navigates to a matching URL (e.g., /products/222), the value (222) is captured.
+
+Extraction: Inside the component (ProductDetails), you call useParams().
+
+Example
+If the current URL is http://localhost:3000/products/222 and the route path is /products/:productId:
+---
+```jsx
+import { BrowserRouter, Route, Routes, Link, useParams } from "react-router-dom";
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        ...
+        <Route path="/products/:productId"
+          element={<ProductDetails />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+export default App;
+const products = [
+  { id: 111, name: "Blaze", desc: "About Blaze..." },
+  { id: 222, name: "Comet", desc: "About Comet..." },
+  { id: 333, name: "Doodle", desc: "About Doodle..." }
+];
+
+function ProductDetails() {
+  const { productId } = useParams();
+  const product = products.find(prod => prod.id == productId);
+
+  return (
+    <>
+      <h1>Product Details</h1>
+      <p>Name: {product.name}</p>
+      <p>Description: {product.desc}</p>
+    </>
+  );
+}
+
 ```
 ---
 Demo [View Demo](https://classroom.github.com/a/gd4XBP3Q)

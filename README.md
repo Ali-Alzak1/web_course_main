@@ -96,3 +96,4 @@ Complete project description available [here](./term_project.md).
 | 5.2 React Starter | Intro to React, JSX syntax, components, props, rendering | [View Demo](https://classroom.github.com/a/09PRaIoj) |
 | 5.3 More React | Event handling, States | [View Demo](https://classroom.github.com/a/wiJZiwXu) |
 | 5.4 More React | Conditional rendering, Lists | [View Demo](https://classroom.github.com/a/4OG8kbSm) |
+| 5.5 React Advance | Forms, Controlled inputs, Routes | [View Demo](https://classroom.github.com/a/gd4XBP3Q) |

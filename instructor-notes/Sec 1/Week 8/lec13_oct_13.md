@@ -282,3 +282,8 @@ function ProductDetails() {
 ```
 ---
 Demo [View Demo](https://classroom.github.com/a/gd4XBP3Q)
+---
+
+# Next Class
+
+- More on React

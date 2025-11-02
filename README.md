@@ -98,3 +98,4 @@ Complete project description available [here](./term_project.md).
 | 5.4 More React | Conditional rendering, Lists | [View Demo](https://classroom.github.com/a/4OG8kbSm) |
 | 5.5 React Advance | Forms, Controlled inputs, Routes | [View Demo](https://classroom.github.com/a/gd4XBP3Q) |
 | 5.6 React Styling & Fetching | CSS, Bootstrap, Fetch data | [View Demo](https://classroom.github.com/a/wtcNr7U4) |
+| 5.7 Back-end Fundamentals | full-stack fundamentals, node, express, routes, server, data flow | [View Demo](https://classroom.github.com/a/SE3rXfDL) |

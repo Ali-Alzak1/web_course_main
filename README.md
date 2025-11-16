@@ -101,4 +101,5 @@ Complete project description available [here](./term_project.md).
 | 5.7 Back-end Fundamentals | full-stack fundamentals, node, express, routes, server, data flow | [View Demo](https://classroom.github.com/a/dPJyHr9V) |
 | 6.1 Introduction to Node | node, modules, package.json files | [View Demo](https://classroom.github.com/a/uGr0A5GN) |
 | 6.2 Express | express, middleware functions, routes, cors, request & response | [View Demo](https://classroom.github.com/a/RFGnUwlL) |
-| 6.3 Request Data in Express| query parmeters, routes, middleware functions | [View Demo](https://classroom.github.com/a/f7Xq_C38) |
+| 6.3 Request Data in Express | query parmeters, routes, middleware functions | [View Demo](https://classroom.github.com/a/f7Xq_C38) |
+| 7.1 mongoDB | mongoDB cloud, mongosh, mongoose | [View Demo](https://classroom.github.com/a/yWib5URO) |

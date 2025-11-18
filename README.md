@@ -103,3 +103,4 @@ Complete project description available [here](./term_project.md).
 | 6.2 Express | express, middleware functions, routes, cors, request & response | [View Demo](https://classroom.github.com/a/RFGnUwlL) |
 | 6.3 Request Data in Express | query parmeters, routes, middleware functions | [View Demo](https://classroom.github.com/a/f7Xq_C38) |
 | 7.1 mongoDB | mongoDB cloud, mongosh, mongoose | [View Demo](https://classroom.github.com/a/yWib5URO) |
+| 7.2 RESTful APIs | CRUD operations, fetch | [View Demo](https://classroom.github.com/a/b5Rjx0N4) |
